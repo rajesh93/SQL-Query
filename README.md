@@ -30,7 +30,7 @@ select*from newuser;
 truncate table newuser;
 insert into newuser values(111,"rajesh");
 insert into newuser values(121,"srini");
-delete from newuser where eid=121;
+delete from newuser where eid=121:
 insert into newuser select *from student;
 select *from student;
 use test;
