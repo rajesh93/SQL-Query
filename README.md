@@ -24,7 +24,7 @@ select * from student order by studnme desc;
 SELECT a.addr,a.addrnum,b.rollnum
 FROM studadd a left join student b
 ON a.rollnum = b.rollnum;
-select*from user;
+
 alter table user  rename to newuser;
 select*from newuser;
 truncate table newuser;
